@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+body{
+    background-color: #fafafa;
+}
+.card{
+    background-color: white;
+    box-shadow: 5px 5px 8px #888888;
+}
+.navicons{
+    color: black;
+}
+
+.navbar{
+    border-bottom: 1px solid grey;
+    
+}
+
+#logo2{
+    width: 200px;
+    height: 100px;}
+
+.search-bar{
+    width: 100%;
+    border: 1px solid grey;
+    background-color: rgb(241, 241, 241);
+}
+
+#profilepic{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+@media(max-width:580px){
+    .search-bar{
+        visibility: hidden;
+    }
+
+}
+
+.nav-right-items{
+    text-align: center;
+
+}
+.images{
+    width: 100%;
+   
+}
+
+img{
+    height: 250px;
+    margin: 10px;
+    align-content: center;
+}
+hr{
+    color: grey;
+    height: 2px;
+}
+.col{
+    align-self: center;
+}
+
+
+#yup{
+    height: 2px;
+    color: grey;
+    width: 100%;
+}

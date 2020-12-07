@@ -11,6 +11,8 @@
 }
 body{
     background-color: #fafafa;
+
+    
 }
 .card{
     background-color: white;
@@ -105,25 +107,26 @@ body{
 .contest1, .contest2, .contest3 , .contest4{
     margin: 20px;
     padding: 10px;
-    background-image: url(./images/gradient.jpg);
-  
-            background-repeat: no-repeat; 
-            background-position: right;
-            background-size: cover;
-            background-attachment: fixed;
+    background-image: url(./images/grad3.jpg);
+    background-color: rgba(0,0,0,.2);
+    background-repeat: no-repeat; 
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #contestname{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Love Ya Like A Sister', cursive;
     color: white;
     margin:10px;
-    background-color: rgba(255,255,255,.5);
+   /* background-color: rgba(255,255,255,.5);*/
 
 }
 
 #click{
+    margin-top: 10px;
     text-align: center;
     font-size: 15px;
     padding-bottom: 10px;
@@ -134,12 +137,13 @@ body{
 #knowMore{
     text-decoration: none;
     color:white;
-    background-color: lightpink;
+    background-color: crimson;
     padding: 10px;
     border-radius: 25px;
 }
 #knowMore:hover{
-    color: lightpink;background-color: white;
+    color: crimson;
+    background-color: white;
     text-decoration: none;
 }
 
@@ -148,4 +152,12 @@ body{
     .col-4{
         visibility: hidden;
     }
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
 }
